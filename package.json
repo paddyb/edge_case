@@ -1,0 +1,19 @@
+{
+  "name": "edge_case",
+  "version": "1.0.0",
+  "description": "",
+  "engines" : { "node" : ">=4.0.0" },
+  "os":["win32"],
+
+  "dependencies": {
+    "edge": "^4.0.0",
+    "express": "^4.13.3",
+    "q": "^1.4.1"
+  },
+  "scripts": {
+    "install": "msbuild proxy/proxy.csproj",
+    "start": "node io.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
