@@ -13,8 +13,6 @@ ehthumbs.db
 Thumbs.db
 
 #cs
-*.*proj
-*.sln
 bin/
 obj/
 
